@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Chess_Board.svg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #ffd700;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffc107;
+}
+.note {
+  display: block;
+  font-size: 0.9em;
+  color: #ffd700;
+  margin-top: 5px;
+}
